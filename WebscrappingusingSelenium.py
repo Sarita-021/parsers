@@ -4,13 +4,13 @@
 # In[4]:
 
 
-pip install beautifulsoup4
+# pip install beautifulsoup4
 
 
 # In[5]:
 
 
-pip install selenium
+# pip install selenium
 
 
 # In[11]:
