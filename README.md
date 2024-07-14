@@ -15,7 +15,8 @@ at the current time
 ## Steps
 1. Web scrapping using Selenium by using Beautiful Soup. We can also scrape data by first trying to parse with lxml if it's not present try looking for something in the script tag, sometimes data is loaded as JSON in script if it's not there either try something else like Selenium/Playwright.
 2. Building a Trend-Centric Recommendation System
-3. AI Assistant to output the results
+3. AI Assistant to deal with the queries regarding fashion industry and current fashion trends.
+   
 
 ## Tech Stack
 ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -47,6 +48,16 @@ at the current time
 12. Setup for recommendation analysis model
 13. Run the jupyter notebook recomendation_rating_clothes.ipynb
 
+
+## Future Plans
+1. Further improving the bot by providing the real-time data of Myntra, so as to further help user to get access of latest trends on Myntra along with the trends in the world.
+   - This will not only help users but also helps sellers to further customize their products according to user to increase the sell.
+2. Further improving the accuracy of the recommendation system by dividing the into multiple parts:
+   - Based on temporary trends influenced by festivals, influenced by actors, movies, etc.
+   - Based on users purchase history.
+   - Trending on Myntra.
+   - New on Myntra.
+
 ## Team Members
 | Name | LinkedIn |  
 | --- | --- | 
@@ -55,3 +66,7 @@ at the current time
 | Nidhi Mishra |  [Link](https://www.linkedin.com/in/nidhimishra1604/) |
 
 ## Demo Video
+
+
+https://github.com/user-attachments/assets/906c00b6-257e-45e0-9d66-7d9955402330
+
