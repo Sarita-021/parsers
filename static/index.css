@@ -1,7 +1,25 @@
+body {
+    position: relative;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: blueviolet;
+    font-family: monospace;
+    text-align: center;
+}
+
 div {
     position: relative;
     display: block;
+    margin: auto;
     unicode-bidi: isolate;
+}
+
+pre {
+    text-wrap: wrap;
 }
 
 .rsc-container {
@@ -12,8 +30,8 @@ div {
     overflow: hidden;
     position: relative;
     inset: initial;
-    width: 350px;
-    height: 520px;
+    width: 500px;
+    height: 600px;
     z-index: 999;
     transform: scale(1);
     transform-origin: right bottom;
@@ -39,7 +57,7 @@ div {
 }
 
 .rsc-content {
-    height: calc(408px);
+    height: calc(485px);
     overflow-y: scroll;
     margin-top: 2px;
     padding-top: 6px;
