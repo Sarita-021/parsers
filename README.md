@@ -31,6 +31,22 @@ at the current time
 ![figma](https://img.shields.io/badge/figma-000000?style=for-the-badge&logo=figma&logoColor=white)
 ![canva](https://img.shields.io/badge/canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 
+## Setup of local environment
+
+1. Fork this repo
+2. Run the command git clone https://github.com/VanadiumV/parsers.git
+3. All the data used for training and testing the models (webscrapping and recommendation system).
+4. Run the jupyter notebook WebscrappingusingSelenium.ipynb
+5. Navigate to app.py repo.
+6. Run command python Apis.py
+7. Navigate to static folder.
+8. First install all dependencies by running npm i.
+9. Run command npm start.
+10. The frontend will start to run on localhost:3000.
+11. Check out the predictions.
+12. Setup for recommendation analysis model
+13. Run the jupyter notebook recomendation_rating_clothes.ipynb
+
 ## Team Members
 | Name | LinkedIn |  
 | --- | --- | 
