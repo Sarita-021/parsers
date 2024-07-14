@@ -5,12 +5,14 @@
 
 
 # pip install beautifulsoup4
+# pip3 install beautifulsoup4
 
 
 # In[5]:
 
 
 # pip install selenium
+# pip3 install selenium
 
 
 # In[11]:
