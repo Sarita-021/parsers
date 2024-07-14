@@ -31,22 +31,21 @@ at the current time
 ![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![figma](https://img.shields.io/badge/figma-000000?style=for-the-badge&logo=figma&logoColor=white)
 ![canva](https://img.shields.io/badge/canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
+![flask](https://img.shields.io/badge/flask-32A852?style=for-the-badge&logo=flask&logoColor=white)
 
 ## Setup of local environment
 
 1. Fork this repo
-2. Run the command git clone https://github.com/VanadiumV/parsers.git
-3. All the data used for training and testing the models (webscrapping and recommendation system).
-4. Run the jupyter notebook WebscrappingusingSelenium.ipynb
-5. Navigate to app.py repo.
-6. Run command python Apis.py
-7. Navigate to static folder.
-8. First install all dependencies by running npm i.
-9. Run command npm start.
-10. The frontend will start to run on localhost:3000.
-11. Check out the predictions.
-12. Setup for recommendation analysis model
-13. Run the jupyter notebook recomendation_rating_clothes.ipynb
+2. Clone the repo: `git clone https://github.com/VanadiumV/parsers.git`.
+3. Data Preparation: All the data used for training and testing the models (web scraping and recommendation system).
+4. Run Web Scraping Notebook: Open `WebscrappingusingSelenium.ipynb` in Jupyter Notebook.
+5. Navigate to cloned repo.
+6. Install all the necessary packages and libraries.
+7. Run command `python app.py` to run the chatbot.
+8. Chatbot will run on bot : `http://127.0.0.1:5000/ ` 
+9. To check out the predictions.
+10. Setup for recommendation analysis model
+11. Run the jupyter notebook `recomendation_rating_clothes.ipynb`
 
 
 ## Future Plans
