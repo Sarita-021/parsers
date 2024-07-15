@@ -1,17 +1,17 @@
 import os
 import dotenv
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 from openai import AzureOpenAI
 
 # Load environment variables from a .env file
 dotenv.load_dotenv()
 
 
-# Initialize the Flask application
-app = Flask(__name__)
+# Create an instance of a Flask application
+app = Flask(__name__)           #handle all the functionalities related to the web server and user interaction
 
 
-# Set up the Azure OpenAI client with API key, version, and endpoint
+# Establish a connection with Azure OpenAI’s models client with API key, version, and endpoint
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),
     api_version="2024-02-15-preview",
@@ -19,7 +19,7 @@ client = AzureOpenAI(
 )
 
 
-# Initial conversation setup with system prompt
+# Initial conversation setup with system prompt for our chatbot
 conversation = [
     {
         "role": "system",
@@ -28,7 +28,7 @@ conversation = [
 ]
 
 
-# Route to render the main HTML page
+# create route for the initial webpage where you see the chat interface.
 @app.route('/')
 def index():
     return render_template('index.html')
